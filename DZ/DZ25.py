@@ -1,2 +1,1 @@
-print('nfnfnfnf')
-print("""asdfasdf""")
+print('Все получилось!')
