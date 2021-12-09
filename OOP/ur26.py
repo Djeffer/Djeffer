@@ -155,23 +155,30 @@
 # h1.input_info('X7 M50i', '2021', 'BMW', '530 л.с', 'white', '10790000')
 # h1.print_info()
 
-class Person:
-    """Переменная для класификации сотрудника"""
-    skill = 10
+# class Person:
+#     """Переменная для класификации сотрудника"""
+#     skill = 10
+#
+#     def print_info(self, name, surname):
+#         self.name = name
+#         self.surname = surname
+#         print(f'Данные сотрудника: {self.name} {self.surname}')
+#
+#     def add_skill(self, k):
+#         self.skill += k
+#         print(f'Квалификация {self.name}: {self.skill}')
+#
+#
+# p1 = Person()
+# p1.print_info('Viktor', 'Reznik')
+# p1.add_skill(3)
+# p2 = Person()
+# p2.print_info('Anna', 'Dolgih')
+# p2.add_skill(2)
 
-    def print_info(self, name, surname):
-        self.name = name
-        self.surname = surname
-        print(f'Данные сотрудника: {self.name} {self.surname}')
-
-    def add_skill(self, k):
-        self.skill += k
-        print(f'Квалификация {self.name}: {self.skill}')
+def sum_arg(a, b):
+    print(a + b)
 
 
-p1 = Person()
-p1.print_info('Viktor', 'Reznik')
-p1.add_skill(3)
-p2 = Person()
-p2.print_info('Anna', 'Dolgih')
-p2.add_skill(2)
+sum_arg(5, 2)
+sum_arg("Hello", "World")
