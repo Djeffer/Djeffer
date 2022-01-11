@@ -98,37 +98,37 @@
 # acc.withdraw_money(3000)
 # print()
 
-class Point(object):
-
-    def __init__(self, x=0, y=0):
-        self.x = x
-        self.y = y
-
-    def __str__(self):
-        return f'{self.x}, {self.y}'
-
-
-class Prop:
-    def __init__(self, sp: Point, ep: Point, color: str = 'red', width: int = 1):
-        self.sp = sp
-        self.ep = ep
-        self.color = color
-        self.width = width
-
-
-class Line(Prop):
-    def draw_line(self):
-        print(f'Рисование линии: {self.sp}, {self.ep}, {self.color}, {self.width}')
-
-
-class Rect(Prop):
-    def draw_rect(self):
-        print(f'Рисование прямоугольника: {self.sp}, {self.ep}, {self.color}, {self.width}')
-
-
-line = Line(Point(1, 2), Point(10, 20))
-line.width = 10
-print(line.width)
-line.draw_line()
-rect = Rect(Point(30, 40), Point(70, 80))
-rect.draw_rect()
+# class Point(object):
+#
+#     def __init__(self, x=0, y=0):
+#         self.x = x
+#         self.y = y
+#
+#     def __str__(self):
+#         return f'{self.x}, {self.y}'
+#
+#
+# class Prop:
+#     def __init__(self, sp: Point, ep: Point, color: str = 'red', width: int = 1):
+#         self.sp = sp
+#         self.ep = ep
+#         self.color = color
+#         self.width = width
+#
+#
+# class Line(Prop):
+#     def draw_line(self):
+#         print(f'Рисование линии: {self.sp}, {self.ep}, {self.color}, {self.width}')
+#
+#
+# class Rect(Prop):
+#     def draw_rect(self):
+#         print(f'Рисование прямоугольника: {self.sp}, {self.ep}, {self.color}, {self.width}')
+#
+#
+# line = Line(Point(1, 2), Point(10, 20))
+# line.width = 10
+# print(line.width)
+# line.draw_line()
+# rect = Rect(Point(30, 40), Point(70, 80))
+# rect.draw_rect()
