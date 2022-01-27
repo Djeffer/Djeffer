@@ -135,7 +135,6 @@ class Clock:
     def __mod__(self, other):
         if not isinstance(other, Clock):
             raise ArithmeticError("Правый операнд должен быть Clock")
-
         return Clock(self.__secs % other.__secs)
 
     def __eq__(self, other):
